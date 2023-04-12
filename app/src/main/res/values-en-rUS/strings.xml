@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Form 1</string>
+    <string name="btnText">Confirmed</string>
+    <string name="instructions">Enter the following data</string>
+    <string name="splashTitle">Project 1</string>
+    <string name="namesHint">Names</string>
+    <string name="surnameHint">Last Name</string>
+    <string name="dateHint">Birthdate</string>
+    <string name="mailHint">Email</string>
+    <string name="accountNumberHint">Account Number</string>
+    <string name="toastName">You must enter names</string>
+    <string name="version">Version</string>
+    <string name="sp_td">Select Career</string>
+
+    <string-array name="careers">
+        <item>Aerospace Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Geomatics Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Geophysical Engineering</item>
+        <item>Geological Engineering</item>
+        <item>Petroleum Engineering</item>
+        <item>Mining and Metallurgical Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Electronic Electrical Engineering</item>
+        <item>Telecommunications Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Biomedical Systems Engineering</item>
+    </string-array>
+
+</resources>

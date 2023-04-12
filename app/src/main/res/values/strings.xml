@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">Formulario 1</string>
+
+    <!-- BUTTON -->
+    <string name="btnText">Consultar</string>
+
+    <!-- TEXTVIEW -->
+    <string name="instructions">Ingresa los siguientes datos</string>
+    <string name="splashTitle">Proyecto 1</string>
+
+    <!-- HINT VALUES -->
+    <string name="namesHint">Nombre</string>
+    <string name="surnameHint">Apellidos</string>
+    <string name="dateHint">Fecha de Nacimiento</string>
+    <string name="mailHint">Correo Electrónico</string>
+    <string name="accountNumberHint">Número de Cuenta</string>
+
+    <!-- TOAST -->
+    <string name="toastName">Debe ingresar el nombre</string>
+    <string name="author" translatable="false">Reyes González Agustín Óscar</string>
+    <string name="version">Versión 1.0.0</string>
+
+    <!-- Placeholders -->
+    <!--<string name="placeholders">El valor uno es: %1$d y el valor dos es: %2$s</string>-->
+
+    <!-- SPINNERS -->
+    <string name="sp_td">Selecciona tu carrera</string>
+
+    <!-- CAREERS -->
+    <string-array name="careers">
+        <item>Ingeniería Aeroespacial</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería Geomática</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Geofísica</item>
+        <item>Ingeniería Geológica</item>
+        <item>Ingeniería Petrolera</item>
+        <item>Ingeniería de Minas y Metalurgia</item>
+        <item>Ingeniería en Computación</item>
+        <item>Ingeniería Eléctrica Electrónica</item>
+        <item>Ingeniería en Telecomunicaciones</item>
+        <item>Ingeniería Mecánica</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería en Sistemas Biomédicos</item>
+    </string-array>
+
 </resources>

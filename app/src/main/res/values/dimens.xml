@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Letreros -->
+    <dimen name="letterSizeTitle">18sp</dimen>
+    <dimen name="letterSizeTitle2">40sp</dimen>
+
+    <!-- Spinner -->
+    <dimen name="sp_careers_width">300dp</dimen>
+    <dimen name="sp_careers_height">56dp</dimen>
+
+    <!-- Tamaño de los cuadros para entradas de texto -->
+    <dimen name="sizeTextField">300dp</dimen>
+
+    <!-- Cantidad de caracteres aceptados -->
+    <dimen name="userInputMaxLength">30</dimen>
+    <dimen name="userMailMaxLength">50</dimen>
+    <dimen name="accountNumberLength">9</dimen>
+</resources>
