@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sw_cheaps"
+    android:background="@drawable/cheaps2"
     tools:context=".MainActivity">
 
     <TextView
@@ -120,6 +120,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
+        android:maxLength="9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

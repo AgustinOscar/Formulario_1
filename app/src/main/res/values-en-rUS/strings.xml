@@ -4,16 +4,20 @@
     <string name="btnText">Confirmed</string>
     <string name="instructions">Enter the following data</string>
     <string name="splashTitle">Project 1</string>
-    <string name="namesHint">Names</string>
+    <string name="namesHint">Name</string>
     <string name="surnameHint">Last Name</string>
     <string name="dateHint">Birthdate</string>
     <string name="mailHint">Email</string>
     <string name="accountNumberHint">Account Number</string>
     <string name="toastName">You must enter names</string>
-    <string name="version">Version</string>
+    <string name="toastInvalidaNumber">You must enter the account number</string>
+    <string name="toastInvalidaNumber2">Invalid Account Number</string>
+    <string name="toastInvalidCareer">Select Career (Click here)</string>
+    <string name="version">Version 1.0.0</string>
     <string name="sp_td">Select Career</string>
 
     <string-array name="careers">
+        <item>Select Career</item>
         <item>Aerospace Engineering</item>
         <item>Civil Engineering</item>
         <item>Geomatics Engineering</item>
@@ -30,5 +34,17 @@
         <item>Mechatronics Engineering</item>
         <item>Biomedical Systems Engineering</item>
     </string-array>
+
+    <string name="toastSurname">You must enter the last name</string>
+    <string name="toastDate">You must enter the birthday</string>
+    <string name="toastMail">You must enter the mail</string>
+    <string name="toastInvalidMail">Invalid Mail</string>
+    <string name="mailError">Invalid Mail</string>
+    <string name="aNumberError">The account number must be 9 digits</string>
+    <string name="emptyInputName">Required Value</string>
+    <string name="emptyInputSurname">Required Value</string>
+    <string name="emptyInputDate">Required Value</string>
+    <string name="emptyInputMail">Required Value</string>
+    <string name="emptyInputaNumber">Required Value</string>
 
 </resources>

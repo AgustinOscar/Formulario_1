@@ -17,6 +17,15 @@
 
     <!-- TOAST -->
     <string name="toastName">Debe ingresar el nombre</string>
+    <string name="toastSurname">Debe ingresar los apellidos</string>
+    <string name="toastDate">Debe ingresar la fecha de nacimiento</string>
+    <string name="toastMail">Debe ingresar un correo</string>
+    <string name="toastInvalidMail">El correo ingresado no es válido</string>
+    <string name="toastInvalidaNumber">Debe ingresar un número de cuenta</string>
+    <string name="toastInvalidaNumber2">El número de cuenta debe ser de 9 dígitos</string>
+    <string name="toastInvalidCareer">Seleccione una carrera (Clic aquí)</string>
+
+    <!-- STATIC -->
     <string name="author" translatable="false">Reyes González Agustín Óscar</string>
     <string name="version">Versión 1.0.0</string>
 
@@ -28,21 +37,31 @@
 
     <!-- CAREERS -->
     <string-array name="careers">
-        <item>Ingeniería Aeroespacial</item>
-        <item>Ingeniería Civil</item>
-        <item>Ingeniería Geomática</item>
-        <item>Ingeniería Ambiental</item>
-        <item>Ingeniería Geofísica</item>
-        <item>Ingeniería Geológica</item>
-        <item>Ingeniería Petrolera</item>
-        <item>Ingeniería de Minas y Metalurgia</item>
-        <item>Ingeniería en Computación</item>
-        <item>Ingeniería Eléctrica Electrónica</item>
-        <item>Ingeniería en Telecomunicaciones</item>
-        <item>Ingeniería Mecánica</item>
-        <item>Ingeniería Industrial</item>
-        <item>Ingeniería Mecatrónica</item>
-        <item>Ingeniería en Sistemas Biomédicos</item>
+        <item>Selecciona tu carrera</item>
+        <item>Aeroespacial</item>
+        <item>Civil</item>
+        <item>Geomática</item>
+        <item>Ambiental</item>
+        <item>Geofísica</item>
+        <item>Geológica</item>
+        <item>Petrolera</item>
+        <item>De Minas y Metalurgia</item>
+        <item>En Computación</item>
+        <item>Eléctrica Electrónica</item>
+        <item>En Telecomunicaciones</item>
+        <item>Mecánica</item>
+        <item>Industrial</item>
+        <item>Mecatrónica</item>
+        <item>En Sistemas Biomédicos</item>
     </string-array>
+
+    <!-- MESSAGE ERROR -->
+    <string name="emptyInputName">Valor requerido</string>
+    <string name="emptyInputSurname">Valor requerido</string>
+    <string name="emptyInputDate">Valor requerido</string>
+    <string name="emptyInputMail">Valor requerido</string>
+    <string name="emptyInputaNumber">Valor requerido</string>
+    <string name="mailError">Correo no válido</string>
+    <string name="aNumberError">En número de cuenta debe se de 9 dígitos</string>
 
 </resources>

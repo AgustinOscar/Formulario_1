@@ -6,8 +6,9 @@
     <dimen name="letterSizeTitle2">40sp</dimen>
 
     <!-- Spinner -->
-    <dimen name="sp_careers_width">300dp</dimen>
+    <dimen name="sp_careers_width">320dp</dimen>
     <dimen name="sp_careers_height">56dp</dimen>
+    <dimen name="sp_padding">10sp</dimen>
 
     <!-- Tamaño de los cuadros para entradas de texto -->
     <dimen name="sizeTextField">300dp</dimen>
