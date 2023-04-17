@@ -63,5 +63,35 @@
     <string name="emptyInputaNumber">Valor requerido</string>
     <string name="mailError">Correo no válido</string>
     <string name="aNumberError">En número de cuenta debe se de 9 dígitos</string>
+    
+    
+    <!-- SIGNOS ZODIACALES -->
+    <string name="aries">Aries</string>
+    <string name="tauro">Tauro</string>
+    <string name="geminis">Géminis</string>
+    <string name="cancer">Cáncer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpio">Escorpio</string>
+    <string name="sagitario">Sagitario</string>
+    <string name="capricornio">Capricornio</string>
+    <string name="acuario">Acuario</string>
+    <string name="piscis">Piscis</string>
+    
+    <string name="rat">Rata</string>
+    <string name="ox">Buey</string>
+    <string name="tiger">Tigre</string>
+    <string name="rabbit">Conejo</string>
+    <string name="dragon">Dragón</string>
+    <string name="snake">Serpiente</string>
+    <string name="horse">Caballo</string>
+    <string name="goat">Cabra</string>
+    <string name="bun">Mono</string>
+    <string name="rooster">Gallo</string>
+    <string name="dog">Perro</string>
+    <string name="pig">Cerdo</string>
+    <string name="stranger">Desconocido</string>
+
 
 </resources>

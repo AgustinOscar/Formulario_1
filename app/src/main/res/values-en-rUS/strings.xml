@@ -46,5 +46,30 @@
     <string name="emptyInputDate">Required Value</string>
     <string name="emptyInputMail">Required Value</string>
     <string name="emptyInputaNumber">Required Value</string>
+    <string name="aries">Aries</string>
+    <string name="piscis">Pisces</string>
+    <string name="acuario">Aquarius</string>
+    <string name="capricornio">Capricorn</string>
+    <string name="sagitario">Sagittarius</string>
+    <string name="escorpio">Scorpio</string>
+    <string name="libra">Libra</string>
+    <string name="virgo">Virgo</string>
+    <string name="leo">Leo</string>
+    <string name="cancer">Cancer</string>
+    <string name="geminis">Gemini</string>
+    <string name="tauro">Taurus</string>
+    <string name="rat">Rat</string>
+    <string name="ox">Ox</string>
+    <string name="tiger">Tiger</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="dragon">Dragon</string>
+    <string name="snake">Snake</string>
+    <string name="horse">Horse</string>
+    <string name="goat">Goat</string>
+    <string name="bun">Bun</string>
+    <string name="rooster">Rooster</string>
+    <string name="dog">Dog</string>
+    <string name="pig">Pig</string>
+    <string name="stranger">Stranger</string>
 
 </resources>
