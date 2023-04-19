@@ -78,7 +78,8 @@
     <string name="capricornio">Capricornio</string>
     <string name="acuario">Acuario</string>
     <string name="piscis">Piscis</string>
-    
+
+    <!-- SIGNOS CHINOS -->
     <string name="rat">Rata</string>
     <string name="ox">Buey</string>
     <string name="tiger">Tigre</string>
@@ -92,6 +93,17 @@
     <string name="dog">Perro</string>
     <string name="pig">Cerdo</string>
     <string name="stranger">Desconocido</string>
+
+    <!-- RESULTADOS -->
+    <string name="resultsTitle">Resultados</string>
+    <string name="nameResults">Nombre Completo</string>
+    <string name="ageResults">Edad</string>
+    <string name="zodiacalSign">Signo Zodiacal</string>
+    <string name="chineseSign">Signo Chino</string>
+    <string name="mail">Correo Registrado</string>
+    <string name="resultsaNumber">Número de Cuenta</string>
+    <string name="ageR">%d años cumplidos</string>
+
 
 
 </resources>

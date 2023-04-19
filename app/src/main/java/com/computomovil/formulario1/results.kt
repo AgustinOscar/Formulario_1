@@ -3,16 +3,22 @@ package com.computomovil.formulario1
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageView
+import com.computomovil.formulario1.databinding.ActivityResultsBinding
 
 import java.text.SimpleDateFormat
 import java.time.Year
 import java.util.*
 
 class results : AppCompatActivity() {
+
+    private lateinit var binding: ActivityResultsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_results)
 
+        binding = ActivityResultsBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         val bundle = intent.extras
 
         if (bundle != null) {
@@ -34,15 +40,116 @@ class results : AppCompatActivity() {
             //Signo Chino.
             val cs:String = chineseSign(ds[2])
 
-            Log.d("LOGTAG", age.toString())
-            Log.d("LOGTAG", zs)
-            Log.d("LOGTAG", cs)
+            binding.nameResultsR.text = "$name $surname"
+            binding.ageResultsR.text = resources.getString(R.string.ageR, age)
+            binding.zodiacalSignR.text = zs
+            binding.chineseSignR.text = cs
+            binding.mailR.text = mail
+            binding.aNumberR.text = aNumber
+
+            selectimage(binding.imageView, career)
+
+            Log.d("LOGTAG", career)
 
         }
 
     }
 
+    fun selectimage(iv:ImageView, career:String){
 
+        if (career == "Ingeniería Aeroespacial" || career == "Aerospace Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("aeroespacial",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Civil" || career == "Civil Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("civil",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Geomática" || career == "Geomatics Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("geomatica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Ambiental" || career == "Environmental Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("ambiental",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Geofísica" || career == "Geophysical Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("geofisica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Petrolera" || career == "Petroleum Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("petrolera",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Geológica" || career == "Geological Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("geologica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería de Minas y Metalurgia" ||
+            career == "Mining and Metallurgical Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("minas",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería en Computación" || career == "Computer Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("computacion",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Eléctrica Electrónica" ||
+            career == "Electronic Electrical Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("electricaelectronica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería en Telecomunicaciones" ||
+            career == "Telecommunications Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("telecomunicaciones",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Mecánica" || career == "Mechanical Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("mecanica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Industrial" || career == "Industrial Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("industrial",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else if (career == "Ingeniería Mecatrónica" || career == "Mechatronics Engineering") {
+            val resourceId = iv.context.resources.getIdentifier("mecatronica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+
+        else {
+            val resourceId = iv.context.resources.getIdentifier("biomedica",
+                "drawable", iv.context.packageName)
+            binding.imageView.setImageResource(resourceId)
+        }
+    }
 
     fun calculateAge(year: String, month:String, day:String): Int {
         val db = "$year-$month-$day"

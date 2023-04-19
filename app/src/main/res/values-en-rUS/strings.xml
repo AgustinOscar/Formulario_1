@@ -71,5 +71,13 @@
     <string name="dog">Dog</string>
     <string name="pig">Pig</string>
     <string name="stranger">Stranger</string>
+    <string name="resultsTitle">Results</string>
+    <string name="nameResults">Name</string>
+    <string name="ageResults">Age</string>
+    <string name="zodiacalSign">Zodiacal Sign</string>
+    <string name="chineseSign">Chinese Sign</string>
+    <string name="mail">Email</string>
+    <string name="resultsaNumber">Account Number</string>
+    <string name="ageR">%d years old</string>
 
 </resources>
